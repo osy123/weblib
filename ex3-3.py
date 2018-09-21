@@ -2,7 +2,7 @@
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-data = urlencode({'name':'둘리','email':'','pwd':''}) #join페이지에서 이부분에 빈공간으로 하고 for문을 돌리면 자동회원가입이 된다.
+data = urlencode({'name':'길동이','email':'','pwd':''}) #join페이지에서 이부분에 빈공간으로 하고 for문을 돌리면 자동회원가입이 된다.
 data = data.encode('UTF-8')
 
 request = Request('http://www.example.com/join', data)
